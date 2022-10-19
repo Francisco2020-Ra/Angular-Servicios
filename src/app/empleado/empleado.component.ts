@@ -26,7 +26,7 @@ export class EmpleadoComponent{
   agregarEmpleado(){
     let miEmpleado = new Empleado(this.cuadroNombre, this.cuadroApellido,this.cuadroCargo,this.cuadroSalario)
 
-    this.servicioEmpleado.muestraMensaje("Nombre del empleado: " + miEmpleado.nombre);
+    //this.servicioEmpleado.muestraMensaje("Nombre del empleado: " + miEmpleado.nombre);
 
     this.servicioDataEmpleado.agregarEmpleadoServicio(miEmpleado);
 
